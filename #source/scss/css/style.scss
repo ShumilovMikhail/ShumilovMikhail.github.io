@@ -1,0 +1,54 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #f4f4f4;
+
+  .container {
+    max-width: 940px;
+    margin: auto;
+
+  }
+}
+
+footer {
+  background-color: black;
+
+  .container {
+    max-width: 940px;
+    margin: auto;
+    text-align: center;
+
+    .footer-text {
+      padding-top: 36px;
+      padding-bottom: 39px;
+      color: white;
+      opacity: 0.5;
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+}
+
+@import url(header.css);
+@import url(main.css);
+@import url(overlay.css);
+@import url(advantages.css);
+@import url(benefits.css);
+@import url(products.css);
+@import url(contacts.css);
+@import url(production.css);
+@import url(rewievs.css);
+@import url(ourclients.css);
+@import url(adaptive.css);
+@import url(contacts-map.css);

@@ -1,0 +1,117 @@
+.header {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  z-index: 1001;
+
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 44px;
+    background-color: black;
+    z-index: 1002;
+
+    .menu-list {
+      position: relative;
+      left: 50%;
+      margin-left: -470px;
+      max-width: 940px;
+      list-style: none;
+      display: flex;
+      padding: 0;
+
+      .menu-item {
+        padding-left: 15px;
+
+        .menu-item__link {
+          font-size: 12px;
+          font-weight: 400;
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .active-show {
+    left: 0 !important;
+  }
+
+  .container {
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .mobile-button {
+      display: none;
+    }
+
+    .header-left {
+      cursor: pointer;
+      background-image: url(../img/header/General-logo.svg);
+      width: 191px;
+      height: 61px;
+      flex-shrink: 0;
+    }
+
+    .header-right {
+      display: flex;
+      justify-content: space-around;
+
+      .right-telephone__container {
+        display: inline-block;
+        margin-right: 20px;
+
+        .right_telephone {
+          line-height: 42px;
+          font-size: 22px;
+          font-weight: 500;
+        }
+      }
+
+      .header-right-button {
+        padding-top: 12px;
+        padding-bottom: 11px;
+        padding-left: 17px;
+        padding-right: 21px;
+        border: 1px solid #ff9d00;
+        background-color: #ff9d00;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .header-button-icon {
+        vertical-align: middle;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.header-right-button:hover {
+  background-color: #fcb543 !important;
+}
+
+.menu-item:not(:last-child):after {
+  content: "";
+  padding-left: 13px;
+  background-image: url(../img/header/menu_item__after.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.right_telephone:first-child {
+  border-right: 1px solid #cfcfd0;
+  padding-right: 13px;
+}
+
+.right-telephone__container:nth-child(2) {
+  margin-left: 13px;
+  margin-right: 27px;
+}

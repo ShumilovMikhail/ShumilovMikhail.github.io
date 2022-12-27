@@ -1,0 +1,27 @@
+.section-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 57px;
+  justify-content: space-between;
+  padding-bottom: 55px;
+
+  .block-benefit {
+    max-width: 28%;
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 28px 13px;
+
+    .block-benefit__left {
+      margin-right: 11px;
+    }
+
+    .block-benefit__right {
+      .benefit-right__title {
+        font-size: 15px;
+        font-weight: 700;
+      }
+    }
+
+  }
+}

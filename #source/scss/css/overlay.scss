@@ -1,0 +1,97 @@
+.overlay {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1002;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+
+  .overlay-block {
+    width: 750px;
+    color: white;
+    position: fixed;
+
+    .overlay-block-close {
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      cursor: pointer;
+    }
+
+    .overlay-header {
+      background-color: #ff9d00;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      .overlay-header-text {
+        font-weight: 500;
+        font-size: 21px;
+        margin-top: 27px;
+        margin-bottom: 27px;
+      }
+    }
+
+    .overlay-main {
+      background-color: #2b2b2b;
+      background-image: url(../img/modal/background-modal.png);
+      background-position: center;
+      text-align: center;
+
+      .overlay-main-title {
+        margin: 0;
+        padding-top: 43px;
+        font-weight: 500;
+        font-size: 30px;
+
+      }
+
+      .overlay-main-suptitle {
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+
+      .overlay-main-number {
+        font-weight: 300;
+        font-size: 20px;
+        margin-bottom: 23px;
+      }
+
+      .overlay-main-button {
+        padding: 23px 20px;
+        border: 1px solid #ff9d00;
+        background-color: #ff9d00;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+
+      }
+
+      .overlay-main-number-enter {
+        height: 61px;
+        width: 345px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+      }
+
+      .overlay-main-min {
+        font-weight: 300;
+        font-size: 14px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+}
+
+.overlay-main-button:hover {
+  background-color: #fcb543 !important;
+}

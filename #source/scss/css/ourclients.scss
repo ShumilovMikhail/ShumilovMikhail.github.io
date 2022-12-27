@@ -1,0 +1,52 @@
+.section-ourclients {
+  margin-top: 95px;
+
+  .container {
+    max-width: 940px;
+    margin: auto;
+
+    .ourclients-title {
+      font-size: 27px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .ourclients-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 61px;
+
+      .ourclients-item {
+        width: 212px;
+        height: 130px;
+        line-height: 130px;
+        border: 1px solid rgba(0, 0, 0, 0.09);
+        text-align: center;
+        filter: grayscale(100%);
+        cursor: pointer;
+        margin-top: 33px;
+
+
+        .ourclients-item__img {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+.ourclients-title::after {
+  content: '';
+  background: url(../img/products/products_title-icon.png) center no-repeat;
+  display: block;
+  height: 6px;
+  margin-top: 12px;
+}
+
+.ourclients-item:hover {
+  filter: grayscale(0) !important;
+  transform: scale(1.1);
+  transition: 0.2s !important;
+}

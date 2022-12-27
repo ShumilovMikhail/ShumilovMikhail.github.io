@@ -1,0 +1,67 @@
+.section-rewievs {
+  background-color: #f4f4f4;
+
+  .container {
+    max-width: 940px;
+    margin: auto;
+  }
+
+  .rewievs-title {
+    padding-top: 55px;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .rewievs-slider {
+    margin-top: 67px;
+    padding-bottom: 71px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    .slick-arrow {
+      font-size: 0;
+      width: 100px;
+      height: 47px;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    .slick-next {
+      background-image: url(../img/rewievs/reviews_arrow_next.png);
+    }
+
+    .slick-prev {
+      background-image: url(../img/rewievs/reviews_arrow_prev.png);
+    }
+
+
+    .slick-list {
+      overflow: hidden;
+
+      .slick-track {
+
+        .slick-slide {
+          width: 256px;
+        }
+      }
+    }
+
+    .rewievs-slider__item {
+      margin-right: 38px;
+      width: 256px !important;
+      height: 360px;
+    }
+  }
+}
+
+.rewievs-title::after {
+  content: '';
+  background: url(../img/products/products_title-icon.png) center no-repeat;
+  display: block;
+  height: 6px;
+  margin-top: 12px;
+}

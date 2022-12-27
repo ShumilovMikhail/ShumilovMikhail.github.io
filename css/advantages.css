@@ -1,0 +1,20 @@
+.section-advantages .advantages-block {
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+}
+.section-advantages .advantages-block .advantages-block__title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #f39003;
+}
+.section-advantages .advantages-block .advantages-block__title sup {
+  font-size: 18px;
+}
+.section-advantages .advantages-block .advantages-block__descript {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
