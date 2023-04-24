@@ -1,0 +1,68 @@
+.section-advantages {
+  margin-top: 60px;
+}
+.section-advantages .advantages-title {
+  font-family: Vela Sans;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+.section-advantages .advantages-title span:first-child {
+  color: #8A0F0C;
+}
+.section-advantages .advantages-title span:last-child {
+  color: #0F265C;
+}
+.section-advantages .advantages_paragraph {
+  font-family: Vela Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  width: 628px;
+  color: #232323;
+}
+.section-advantages .advantages_paragraph:nth-child(2) {
+  margin-top: 10px;
+}
+.section-advantages .advantages_paragraph:nth-child(3) {
+  margin-top: 30px;
+}
+.section-advantages .advantages_paragraph:nth-child(4) {
+  margin-top: 10px;
+}
+.section-advantages .advantages-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  padding: 0;
+}
+.section-advantages .advantages-list .advantages-item {
+  list-style: none;
+  font-family: Vela Sans;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+.section-advantages .advantages-list .advantages-item .advantages-item_text::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 13px;
+  background-image: url(../img/arrow-red.svg);
+  margin-right: 10px;
+}
+.section-advantages .advantages-list .advantages-item .advantages-item_title {
+  font-size: 62px;
+  margin: 0;
+}
+.section-advantages .advantages-list .advantages-item .advantages-item_paragraph {
+  margin: 0;
+  margin-top: 5px;
+  font-weight: 400;
+}

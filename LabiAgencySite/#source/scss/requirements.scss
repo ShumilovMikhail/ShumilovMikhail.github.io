@@ -1,0 +1,40 @@
+.section-requirements {
+  padding-bottom: 120px;
+
+  .container {
+    .requirements-title {
+      padding-top: 120px;
+      font-family: Vela Sans;
+      font-size: 32px;
+      font-weight: 700;
+      text-align: left;
+      margin: 0;
+    }
+
+    .requirements-list {
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+
+      .requirements-item {
+        margin-right: 19px;
+        text-align: center;
+
+        .requirements-item__img {
+          display: block;
+          margin: 0 auto;
+        }
+
+        .requirements-item__text {
+          display: inline-block;
+          margin-top: 20px;
+          font-family: Vela Sans;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

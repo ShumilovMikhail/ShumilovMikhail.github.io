@@ -1,0 +1,37 @@
+.section-requirements {
+  padding-bottom: 120px;
+}
+.section-requirements .container .requirements-title {
+  padding-top: 120px;
+  font-family: Vela Sans;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+.section-requirements .container .requirements-list {
+  padding: 0;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section-requirements .container .requirements-list .requirements-item {
+  margin-right: 19px;
+  text-align: center;
+}
+.section-requirements .container .requirements-list .requirements-item .requirements-item__img {
+  display: block;
+  margin: 0 auto;
+}
+.section-requirements .container .requirements-list .requirements-item .requirements-item__text {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: Vela Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
